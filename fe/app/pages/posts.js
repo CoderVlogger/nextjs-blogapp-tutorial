@@ -5,7 +5,6 @@ function PostsPage({ posts }) {
     <div>
       <div>List of posts:</div>
       <div>
-        {/* {posts} */}
         <p>Posts as a string:</p>
         {JSON.stringify(posts)}
       </div>

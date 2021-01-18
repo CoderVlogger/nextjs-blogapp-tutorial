@@ -55,11 +55,3 @@ export async function getStaticPaths() {
 }
 
 export default Post;
-
-/*
-
-  "posts" -> posts -> posts
-
-  posts/1
-  posts/2
-*/
