@@ -1,0 +1,27 @@
+// FE BE API SPECIFICATION:
+
+/*
+    Endpoint: /posts/
+    Description: Returns list of the posts.
+*/
+{
+    "posts": [
+        { "id": 1, "slug": "post1", "title": "Post #1", "author": "Alex"},
+        { "id": 2, "slug": "post2", "title": "Post #2", "author": "John"},
+        { "id": 3, "slug": "post3", "title": "Post #3", "author": "Boris"}
+    ],
+    "total_posts": 10000,
+    "page": 3
+}
+
+/*
+    Endpoint: /posts/[ID]/
+    Description: Returns post by ID.
+*/
+{
+    "post": {
+        "id": 1,
+        "title": "Post #1",
+        "author": "Alex"
+    }
+}
